@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("var blogpost = function getBlogpost() {\r\n    return \"Hello World\";\r\n}\n\n//# sourceURL=webpack:///./src/app.js?");
+eval("var getBlogpost = function () {\r\n    return {\r\n        title: \"Blogpost 1\",\r\n        content: \"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\"\r\n    };\r\n}\r\n\r\n// Run the script\r\nvar blogpost = getBlogpost();\r\nconsole.log(blogpost.title);\r\nconsole.log(blogpost.content);\n\n//# sourceURL=webpack:///./src/app.js?");
 
 /***/ })
 
