@@ -1,0 +1,34 @@
+Setup:
+	- Setup Git
+	- Setup Typescript
+	- Setup Visual Studio api project
+
+Iteration 1: Readonly blog
+
+	- Reads single blogpost with title and content.
+	- Reads multiple blogpost
+	- From in memory to sql repo
+	- Enhance css (flexbox)
+	- Enhance js (webpack)
+
+Iteration 2: Write blog
+		
+	- Writes a blogpost with title and content
+	- Simple navigation from read to write
+	- Inline write blogpost on same page
+
+Iteration 3: CRUD blog
+	
+	- Delete blogpost
+	- Edit blogpost
+	- Implement sql-based blog
+
+Iteration 4: Enhancements
+	
+	- About page
+	- Navigation
+	- Enhance fonts, layout
+	- Header-Footer
+	- ...
+
+Release 1: Release on Azure	
