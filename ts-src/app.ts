@@ -1,3 +1,4 @@
+import "../web-src/styles/styles.scss";
 import * as Page from './flow/pageLoader';
 
 var header = new Page.Header();
