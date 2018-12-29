@@ -1,13 +1,25 @@
+$colors:(
+    primary: #1D2D44,
+    accent: #B8D8D8,
+    focus: #7A9E9F,
+    clear: #FFFFFC,
+    dark: #000000
+);
+
+@function color($color-name) {
+    @return map-get($colors, $color-name);
+}
+
 .page {
 
-    background-color: #000000;
+    background-color: color(clear);
     min-height: 100vw;
     min-width: 100vw;
     margin: 0;
     padding: 0;
 
     &__paragraph {
-        color: white;
+        color: color(primary);
         font-family: sans-serif;
         margin: 0;
         padding: 0;
